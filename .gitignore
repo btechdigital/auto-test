@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Database files
+db.sqlite3
+
+# Environment variables
+.env
+
+# Virtual environment
+env/
+venv/
+ENV/
+# If you use any other virtual environment names, add them here
+
+# Static files
+/static/
+media/
+
+# IDE and editor files
+*.swp
+*.swo
+*.DS_Store
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+htmlcov/
